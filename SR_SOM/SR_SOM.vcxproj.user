@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\solid\Desktop\SR_SOM-Release\PRUEBAS_L7\save\som7" -ld -learn -hr:"C:\Users\solid\Desktop\Dataset\HR_train\B" -lr:"C:\Users\solid\Desktop\Dataset\LR_train\B" -e:"C:\Users\solid\Desktop\SR_SOM-Release\PRUEBAS_L7\save\images\modelMultiSOM7"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>-sv:"C:\Users\solid\Desktop\SR_SOM-Release\PRUEBAS_L7\save\som7" -ld -learn -hr:"C:\Users\solid\Desktop\Dataset\HR_train\B" -lr:"C:\Users\solid\Desktop\Dataset\LR_train\B" -e:"C:\Users\solid\Desktop\SR_SOM-Release\PRUEBAS_L7\save\images\modelMultiSOM7"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+</Project>
